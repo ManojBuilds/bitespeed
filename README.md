@@ -1,5 +1,7 @@
 # Bitespeed Flow Builder
 
+[https://bitespeed-lac.vercel.app](https://bitespeed-lac.vercel.app/)
+
 A visual flow builder application built with Next.js and React Flow. This application allows users to create, edit, and manage workflows by dragging and dropping different types of nodes onto a canvas.
 
 ## Features
@@ -12,6 +14,15 @@ A visual flow builder application built with Next.js and React Flow. This applic
 - Local storage persistence
 
 ## Getting Started
+Clone the repository into your local machine
+```bash
+git clone git@github.com:ManojBuilds/bitespeed.git
+```
+
+Change the directory to ```bitespeed```
+```bash
+cd bitespeed
+```
 
 First, install the dependencies:
 
