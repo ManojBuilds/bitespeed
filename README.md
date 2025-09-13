@@ -1,33 +1,72 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Bitespeed Flow Builder
+
+A visual flow builder application built with Next.js and React Flow. This application allows users to create, edit, and manage workflows by dragging and dropping different types of nodes onto a canvas.
+
+## Features
+
+- Visual flow builder with drag-and-drop functionality
+- Node-based workflow creation
+- Connection management between nodes
+- Node configuration panel
+- Responsive design
+- Local storage persistence
 
 ## Getting Started
 
-First, run the development server:
+First, install the dependencies:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
+pnpm install
+```
+
+Then, run the development server:
+
+```bash
 pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Building for Production
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+To create a production build:
+
+```bash
+pnpm build
+```
+
+To serve the production build locally:
+
+```bash
+pnpm start
+```
+
+## Project Structure
+
+- `src/app` - Next.js app router pages
+- `src/components` - React components
+- `src/store` - Zustand store for state management
+- `src/lib` - Utility functions
+
+## Technologies Used
+
+- [Next.js](https://nextjs.org/)
+- [React Flow](https://reactflow.dev/)
+- [Zustand](https://zustand-demo.pmnd.rs/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [TypeScript](https://www.typescriptlang.org/)
+
+## Deployed Application
+
+The application is deployed on Vercel at: [https://bitespeed-flow-builder.vercel.app](https://bitespeed-flow-builder.vercel.app)
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+To learn more about the technologies used in this project:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API
+- [React Flow Documentation](https://reactflow.dev/docs/) - learn about React Flow features
+- [Zustand Documentation](https://docs.pmnd.rs/zustand/getting-started/introduction) - learn about Zustand state management
 
 ## Deploy on Vercel
 
