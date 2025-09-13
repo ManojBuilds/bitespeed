@@ -58,7 +58,7 @@ pnpm start
 
 ## Deployed Application
 
-The application is deployed on Vercel at: [https://bitespeed-flow-builder.vercel.app](https://bitespeed-flow-builder.vercel.app)
+The application is deployed on Vercel at: [https://bitespeed-lac.vercel.app/](https://bitespeed-lac.vercel.app/)
 
 ## Learn More
 

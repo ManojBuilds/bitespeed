@@ -15,7 +15,7 @@ export const TextNode = ({ id, data, selected }: TextNodeProps) => {
   return (
     <div
       className={cn(
-        "shadow-2xl w-full max-w-sm rounded-lg overflow-hidden border",
+        "shadow-2xl w-full min-w-xs max-w-lg rounded-lg overflow-hidden border",
         selected && "ring-2 ring-amber-600",
       )}
     >
